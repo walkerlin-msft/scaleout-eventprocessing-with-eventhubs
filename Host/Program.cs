@@ -85,8 +85,8 @@
                 consumerGroupName,
                 eventHubConnectionString,
                 storageConnectionString,
-                eventHubName.ToLowerInvariant(),
-                eventHubName.ToLowerInvariant()
+                hostName.ToLowerInvariant(),
+                hostName.ToLowerInvariant()
                 );
 
             factory = new DemoEventProcessorFactory(hostName, partitionNumber);
